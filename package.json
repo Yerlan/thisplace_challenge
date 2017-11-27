@@ -1,0 +1,29 @@
+{
+  "name": "thisplace_challenge",
+  "version": "1.0.0",
+  "description": "Coding challenge for This Place",
+  "main": "app.js",
+  "scripts": {
+    "start": "babel-node app.js --presets es2015",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yerlan/thisplace_challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yerlan/thisplace_challenge/issues"
+  },
+  "homepage": "https://github.com/Yerlan/thisplace_challenge#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "lodash": "^4.17.4",
+    "node-fetch": "^1.7.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
